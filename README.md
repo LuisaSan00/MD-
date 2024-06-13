@@ -20,7 +20,7 @@ In this directory you have to create two new folders: topol and md. In topol we 
 ## Step zero: source source GROMACS and AMBER
 1. For this tutorial, we will be using the GROMACS and AMBER that are in Bell cluster (Purdue). These programs need some modules to be loaded before hand, use ```module spider module_name```. This will list the needed modules, just run ```module load module_name```.
 Then you can do ``` module load gromacs/check_correct_version``` and ``` module load amber```. 
-Now you will be able to use gmx_mpi (GROMACS) and amber commands.
+Now you will be able to use gmx_mpi (GROMACS) and AMBER commands.
 
 ## Step one: create the initial QM input
 1. Download or build a coordinate file called mol.ext for a molecule named mol. The extension (ext) can be anything that is supported by ASE (xyz, pdb, gro, …).
